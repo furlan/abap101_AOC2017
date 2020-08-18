@@ -6,7 +6,8 @@
 REPORT zaoc_02av1.
 
 TYPES BEGIN OF sheet_type.
-TYPES lin TYPE i.TYPES col TYPE i.
+TYPES lin TYPE i.
+TYPES col TYPE i.
 TYPES val TYPE i.
 TYPES END OF sheet_type.
 TYPES sheet_table TYPE TABLE OF sheet_type.
